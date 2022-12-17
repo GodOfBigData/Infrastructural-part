@@ -1,0 +1,7 @@
+username_db = "monitoring"
+password_db = "lucky369"
+addres = "greenplum"
+port = "5432"
+db = "iot_integration"
+table_get="device_info_stg"
+table_post="device_info_dds"

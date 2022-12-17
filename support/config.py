@@ -1,0 +1,8 @@
+bootstrap_servers = "kafka:9092"
+topic = "big_data_topic"
+username_db = "monitoring"
+password_db = "lucky369"
+addres = "greenplum"
+port = "5432"
+db = "iot_integration"
+table="device_info_stg"
