@@ -1,10 +1,10 @@
 # Infrastructural-part
 Infrastructural part
 
-О проекте:
+#О проекте:
 Проект предназначен для процессинга событий, приходящих от датчиков Iot устройства. Данные с отрицательной температурой отфильтровываются.
 
-Инфраструктурные элементы системы: 
+#Инфраструктурные элементы системы: 
 - датчики Iot устройства
 - apache kafka;
 - zookeeper;
@@ -14,7 +14,7 @@ Infrastructural part
 - redis;
 - postgresql.
 
-Image системы:
+#Image системы:
 - airflow;
 - postgres:13;
 - redis:latest;
@@ -24,7 +24,7 @@ Image системы:
 - consumer;
 - greenplum.
 
-Контейнеры системы:
+#Контейнеры системы:
 - airflow-worker_1
 - airflow-webserver_1
 - airflow-triggerer_1
@@ -65,4 +65,16 @@ git pull проекта
 Для проверки работы системы, подключитесь к базе данных по адресу localhost:5434/iot_integration. Проверьте наличие данных в таблицах: 
 - device_info_stg;
 - device_info_dds.
+
+#Минимальные системные требования 
+IntelCore i3-9100 3.60GHz
+8ГБ
+8ГБ на твердотельном накопителе (SSD)
+OS: Ubuntu 20.04+
+
+#Требуемое программное обеспечение
+Git 2.38.1+
+Docker 20.10.21+
+Docker-Compose 1.29.2+
+Firefox 107.0.1+ или Google Ghrome 107.0.5304.122-1.1+
 
