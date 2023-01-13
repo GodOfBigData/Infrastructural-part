@@ -51,7 +51,7 @@ git pull проекта
 Переходим в директорию "./createImage/consumer".  Запускаем команду: docker build -t consumer . -f consumer.dockerfile
 
 Шаг 4
-Переходим в директорию "./createImage/greenplum".  Запускаем команду: docker build -t greenplum . -f greenplum.dockerfile
+Переходим в директорию "./createImage/greenplum".  В файле 'setEnv.sh' прописываем имя бд, имя пользователя и пароль. Запускаем команду: docker build -t greenplum . -f greenplum.dockerfile
 
 Шаг 5
 Переходим в директорию "./createImage".  Запускаем команду: docker build -t airflow . -f airflow.dockerfile
